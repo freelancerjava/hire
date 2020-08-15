@@ -1,0 +1,51 @@
+@import '../../styles/mixins';
+
+.video-videos-page {
+
+    .video-item {
+        border: solid 1px #4f6ae2;
+        // border-left: solid 1px #4f6ae200;
+
+        &:hover {
+            border: solid 1px #adadad;
+        }
+
+        width: 100%;
+    }
+    .description{
+        height: 50px;
+        overflow: hidden;
+    }
+
+    .vimg {
+        height: 200px;
+        width: 300px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    /**/
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    /**/
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 576px) {
+
+    /**/
+    .video-videos-page {
+        .video-item {
+            border: solid 1px #4f6ae2;
+        }
+
+        .vimg {
+            // height: 100%;
+            width: 100%;
+        }
+    }
+}

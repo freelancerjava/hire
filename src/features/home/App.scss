@@ -1,0 +1,9 @@
+@import '../../styles/mixins';
+
+.home-app {}
+
+.compact{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
